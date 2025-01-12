@@ -1,4 +1,5 @@
-<html lang="ru">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +24,7 @@
         <h1 class="page-title">уроки</h1>
         <div class="card-container">
             <div class="card">
-                <img src=https://i0.wp.com/alittlebithuman.com/wp-content/uploads/2021/03/schrodingers-cat.jpg?resize=1024%2C576&ssl=1" alt="Placeholder">
+                <img src="https://i0.wp.com/alittlebithuman.com/wp-content/uploads/2021/03/schrodingers-cat.jpg?resize=1024%2C576&ssl=1" alt="Placeholder">
                 <div class="card-content">
                     <h2 class="card-title">квантовая физика</h2>
                     <a href="c:\Users\user\Desktop\ib project 2024-2025\web\quantym_module.html" class="card-button">читать/смотреть видеоурок</a>
