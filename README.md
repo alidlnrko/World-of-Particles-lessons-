@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -34,7 +33,6 @@
                 <source src="vecteezy_in-bohr-atomic-structure-electrons-orbit-nucleus-in-fixed_47377875.mp4" type="video/mp4">
                 Ваш браузер не поддерживает тег видео.
             </video>
-        </div>
         </div>
     </section>
 
