@@ -1,42 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-lessons.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <a href="#" class="logo">world of particles
-            </a>
-            <ul class="nav-links">
-                <li><a href="https://alidlnrko.github.io/World-of-Particle/">в меню</a></li>
+# Мой проект
 
-            </ul>
-            <div class="nuclear">
-                <span></span>
-            </div>
-        </nav>
-    </header>
-    <section class="gallery-of-lessons">
-        <h1 class="page-title">уроки</h1>
-        <div class="card-container">
-            <div class="card">
-                <img src="https://i0.wp.com/alittlebithuman.com/wp-content/uploads/2021/03/schrodingers-cat.jpg?resize=1024%2C576&ssl=1" alt="Placeholder">
-                <div class="card-content">
-                    <h2 class="card-title">квантовая физика</h2>
-                    <a href="c:\Users\user\Desktop\ib project 2024-2025\web\quantym_module.html" class="card-button">читать/смотреть видеоурок</a>
-                </div>
-            </div>
-            <video class="background-video" autoplay muted loop>
-                <source src="vecteezy_in-bohr-atomic-structure-electrons-orbit-nucleus-in-fixed_47377875.mp4" type="video/mp4">
-                Ваш браузер не поддерживает тег видео.
-            </video>
-        </div>
-        </div>
-    </section>
+Это проект с уроками. Для первого урока откройте файл [first_lesson.html](first_lesson.html).
 
-</body>
-</html>
+Стили находятся в файле [style_lessons.css](style_lessons.css).
+
+Для запуска этого сайта через GitHub Pages, просто следуйте следующим шагам:
+
+1. Перейдите в настройки вашего репозитория (Settings).
+2. В разделе "GitHub Pages" выберите ветку (обычно это main).
+3. Укажите каталог, где находятся ваши HTML и CSS файлы (например, / или /docs).
+4. Сохраните изменения.
+
+После этого ваш сайт будет доступен по адресу, предоставленному в разделе "GitHub Pages".
