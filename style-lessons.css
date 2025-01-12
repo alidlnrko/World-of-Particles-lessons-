@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik+Glitch&display=swap');
+
+body{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+/* Основной стиль для header */
+header {
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Стили для навбара */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Логотип */
+.logo {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: auto;
+    
+}
+
+.logo a{
+    margin: 24px;
+}
+
+.logo img{
+    display: block;
+    float: left;
+}
+
+
+
+
+
+/* Ссылки */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #aa00ff;
+}
+
+.nuclear {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+/*галлерея уроков*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px;
+}
+
+.card {
+    background-color: #575757;
+    border: 1px solid #bb00ff;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-content a{
+    text-decoration: none
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0 0 15px;
+}
+
+.card-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #5656561c;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #8900d3;
+}
+
+/* Видео на фоне */
+.background-video {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Отправляет видео на задний план */
+    opacity: 0.7; /* Полупрозрачность для лучшего отображения текста */
+}
+
+.page-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 20px 0;
+    text-align: center;
+}
+@media (max-width: 480px) {
+    .page-title {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .card-content {
+        padding: 10px;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .card-button {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
+@media (max-width: 768px) {
+    .page-title {
+        font-size: 28px;
+        margin: 15px 0;
+    }
+
+    .card {
+        width: 100%; /* Карточки растягиваются на всю ширину */
+    }
+
+    .card-container {
+        gap: 15px; /* Уменьшаем отступы между карточками */
+    }
+
+    .nav-links {
+        flex-direction: column; /* Ссылки располагаются вертикально */
+        gap: 10px;
+    }
+
+    .nav-links li a {
+        font-size: 14px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
